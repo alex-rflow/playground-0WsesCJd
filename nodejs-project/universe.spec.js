@@ -13,6 +13,9 @@ it('should sum stars', function () {
     assert.equal(6, universe.countAllStars([1, 2, 3]));
     assert.equal(16, universe.countAllStars([10, 3, 2, 1]));
     assert.equal(42, universe.countAllStars([20, 20, 2]));
+    assert.equal(6, universe.countAllStars([1, 2, 3]));
+    assert.equal(16, universe.countAllStars([10, 3, 2, 1]));
+    assert.equal(42, universe.countAllStars([20, 20, 2]));
 
     if (reduceUsed) {
       printMessage('My personal Yoda, you are. 🙏', '* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ');
